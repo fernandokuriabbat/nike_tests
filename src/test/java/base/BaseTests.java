@@ -13,8 +13,8 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import pages.HomePage;
-import utils.EventReporter;
-import utils.WindowManager;
+//import utils.EventReporter;
+//import utils.WindowManager;
 
 import java.io.File;
 import java.io.IOException;
@@ -61,9 +61,9 @@ public class BaseTests {
         }
     }
 
-    public WindowManager getWindowManager(){
-        return new WindowManager(driver);
-    }
+//    public WindowManager getWindowManager(){
+//        return new WindowManager(driver);
+//    }
 
     public ChromeOptions getChromeOptions(){
         ChromeOptions options = new ChromeOptions();
